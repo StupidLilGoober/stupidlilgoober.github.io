@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+  color: white;
+  background-color: #1d004b;
+  text-align: left;
+  align-content: left;
+  align-items: left;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
