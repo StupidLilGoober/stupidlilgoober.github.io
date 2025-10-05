@@ -7,13 +7,15 @@ html {
   align-items: left;
   font-family: Arial, sans-serif;
   font-size: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 code {
     font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
     color: white;
     background-color:rgb(0, 0, 0);
     outline-style: dashed;
+    white-space: nowrap;
   }
