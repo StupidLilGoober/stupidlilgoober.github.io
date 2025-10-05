@@ -22,9 +22,13 @@ const messages = [
   "i dunno who found this website, but you are probably the only one looking at it right now.",
   "you should go to mynameistrez.github.io, it's a pretty neat blog",
   "I dunno what else to put here",
-  "Imageine laughing at NUMBERS? 67 69 420",
+  "Imagine laughing at NUMBERS 67 69 420",
   "Error 420: Too high to function",
-  "Error 80085: hehehehehhehehehehehehhehehehehehehehehhehehehehehehehehehehheheheheheheh"
+  "Error 80085: hehehehehhehehehehehehhehehehehehehehehhehehehehehehehehehehheheheheheheh",
+  "jesus loves you",
+  "cheese is good",
+  "i have eaten a concerning amount of eggs in my life time",
+  "the things my grandma watch and my younger brother watch are indistinguishable, and my younger brothers watch bombardino crocadillo"
 ]
 
 const messageDisplay = document.getElementById('random-message');
