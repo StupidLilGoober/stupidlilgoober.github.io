@@ -8,13 +8,23 @@ const messages = [
   "Error: 404 Message Not Found",
   "I don't like js",
   "Unironically, dreamberd is better than js",
-  "MOMMMMMAAAAAA OOOOOOOOOOOOOO, DIDN'T MEAN TO MAKE YOU CRY",
+  "MOMMMMMAAAAAA OOOOOOOOOOOOOO",
   "Why are you still on the home page?",
   "Cookie clicker lowkey slaps 🔥🔥🔥🔥",
   "i code this on a chromebook sometimes, that's how you know i am dedicated",
   "this site DOESN'T use cookies. not because i care about your privacy, but because i am too lazy to implement them",
   "my friend won't stop talking about kpop demon hunters and it's making me lose my mind",
-  `https://youtu.be/hfmxO-HQ5rU?si=d6bl7zjXhTnN5pRs : Australian National Anthem`
+  `https://youtu.be/hfmxO-HQ5rU?si=d6bl7zjXhTnN5pRs : Australian National Anthem`,
+  "67? 67.",
+  "C is lowkey fire",
+  "I dunno what I'm doing",
+  "do your homework",
+  "i dunno who found this website, but you are probably the only one looking at it right now.",
+  "you should go to mynameistrez.github.io, it's a pretty neat blog",
+  "I dunno what else to put here",
+  "Imageine laughing at NUMBERS? 67 69 420",
+  "Error 420: Too high to function",
+  "Error 80085: hehehehehhehehehehehehhehehehehehehehehhehehehehehehehehehehheheheheheheh"
 ]
 
 const messageDisplay = document.getElementById('random-message');
