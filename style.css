@@ -1,0 +1,22 @@
+html {
+  background:#1c1c1c;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:100%;
+
+  color:whitesmoke;
+  text-align:center;
+  font-family:monospace;
+  font-size:15;
+}
+
+a {
+  color:gray;
+}
+
+.pfp {
+  border-color:white;
+  border-radius:1em;
+  border-width:0.15em;
+  border-style:solid;
+}
