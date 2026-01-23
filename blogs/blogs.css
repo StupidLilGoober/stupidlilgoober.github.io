@@ -1,0 +1,12 @@
+@import url("../style.css");
+
+html {
+    text-align: left;
+    font-size: x-large;
+    margin-right: 5em;
+}
+
+.code {
+    background-color: rgb(8, 8, 8);
+    border-radius: 0.5em;
+}
