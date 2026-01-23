@@ -7,7 +7,11 @@ html {
   color:whitesmoke;
   text-align:center;
   font-family:monospace;
-  font-size:15;
+  font-size:larger;
+  p {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
 }
 
 a {
