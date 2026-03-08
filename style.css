@@ -12,11 +12,17 @@ html {
 
 a {
   color:gray;
+  font-style: normal;
+}
+
+a:hover {
+  color: white;
+  font-style: italic;
 }
 
 .pfp {
   border-color:white;
-  border-radius:1em;
+  border-radius:50%;
   border-width:0.15em;
   border-style:solid;
 }
