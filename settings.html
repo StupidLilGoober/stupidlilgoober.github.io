@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+	// Save settings
+	function saveSettings() {
+		const largeFont = document.getElementById("large-text").checked
+		const boldFont = document.getElementById("bold-text").checked
+		const font = document.getElementById("font").value
+		const theme = document.getElementById("theme").value
+
+		localStorage.setItem("large-text", largeFont)
+		localStorage.setItem("bold-text", boldFont)
+		localStorage.setItem("font", font)
+		localStorage.setItem("theme", theme)
+
+		alert("Settings saved!")
+	}
+	// Load settings
+	function loadSettings() {
+		const largeText = localStorage.getItem("large-text")
+		const boldText = localStorage.getItem("bold-text")
+		const font = localStorage.getItem("font")
+		const theme = localStorage.getItem("theme")
+
+		if (largeText !== null) {
+			document.getElementById("large-text").checked = (largeText === "true")
+		}
+
+		if (boldText !== null) {
+			document.getElementById("bold-text").checked = (boldText === "true")
+		}
+
+		if (font !== null) {
+			document.getElementById("font").value = font
+		}
+
+		if (theme !== null) {
+			document.getElementById("theme").value = font
+		}
+	}
+
+	// Run on page load
+	window.onload = loadSettings
+	</script>
+
+	<div id="navbar"></div>
+	<h1>Settings</h1>
+	
+	<h2>Visual</h2>
+
+	<label for="theme">Theme</label>
+	<select id="theme">
+		<option>dark</option>
+		<option>light</option>
+	</select>
+
+	<h2>Compatibility</h2>
+
+	<label for="large-text">Large Text</label>
+	<input id="large-text" type="checkbox"> <br>
+	
+	<label for="bold-text">Bold Text</label>
+	<input id="bold-text" type="checkbox"> <br>
+
+	<label for="font">Font</label>
+	<select id="font">
+		<option>monospace</option>
+		<option>sans-serif</option>
+	</select> <br>
+
+	<hr>
+
+	<button onclick="saveSettings()">Save</button>
+
+	<script src="scripts.js"></script>
+</body>
