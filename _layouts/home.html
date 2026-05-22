@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}" class="crt">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Home - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <style>
+    </style>
+  </head>
+  <body>
+    <h1 align="center">{{ page.title }}</h1>
+    <div align="center">
+      <a href="/pages/posts/index.html">Posts</a> | <a href="/pages/projects/index.html">Projects</a> |
+      <a href="/pages/policies/index.html">Policies</a>
+      <div>
+      {% include contacts.html %}
+      </div>
+    </div>
+    <hr>
+    <div id="home-sections">
+      <div id="about-me">
+        {{ content }}
+      </div>
+      <hr>
+      <div id="posts-list" style="width: 200px; height: 700px; right: 5px">
+        <h2>Posts</h2>
+        <ul>
+          {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a> <br>
+            <small>{{ post.date | date: "%B %-d, %Y" }}</small> <br>
+            <small>{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}</small>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  <script>
+    {% include scripts/copyCode.js %}
+  </script>
+  {% include footer.html %}
+  </body>
+</html>
