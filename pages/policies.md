@@ -2,6 +2,7 @@
 title: "Policies"
 layout: default
 date: 2026-5-21
+permalink: "/policies/"
 ---
 
 # Policies

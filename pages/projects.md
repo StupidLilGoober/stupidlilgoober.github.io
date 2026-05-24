@@ -2,6 +2,7 @@
 layout: default
 title: "Projects"
 date: 2026-5-20
+permalink: "/projects/"
 ---
 
 # Projects

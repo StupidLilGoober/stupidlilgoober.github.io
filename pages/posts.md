@@ -2,6 +2,7 @@
 layout: default
 title: "Posts"
 date: 2026-5-20
+permalink: "/posts/"
 ---
 
 # Posts
