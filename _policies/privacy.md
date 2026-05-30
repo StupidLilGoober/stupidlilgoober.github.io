@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 layout: policy
-date: 2026-5-21
+date: 2026-5-30
 permalink: /policies/privacy/
 ---
 
@@ -55,7 +55,8 @@ policies.
 
 These sites include:
 
-GitHub
+* GitHub
+* Cloudflare
 
 ## Analytics
 
