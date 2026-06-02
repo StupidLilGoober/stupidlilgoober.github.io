@@ -1,27 +1,38 @@
-$htmlBackgroundColor: rgb(255, 255, 255);
+$htmlBackgroundColor: rgb(240, 240, 240);
+$htmlDarkBackgroundColor: rgb(10, 10, 10);
 $sectionBackgroundColor: rgba(220, 220, 220, 0.8);
-$bodyColor: #000000;
+$sectionDarkBackgroundColor: rgba(20, 20, 20, 0.8);
+$bodyColor: rgb(0, 0, 0);
+$bodyDarkColor: rgb(245, 245, 245);
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
-@import "crt.scss";
+@import "elements.scss";
 
-body {
-  margin-bottom: 30px;
+:root {
+  --bg-color: #{$htmlBackgroundColor};
+  --text-color: #{$bodyColor};
+  --accent-color: #{$sectionBackgroundColor};
+}
+
+[data-theme="dark"] {
+  --bg-color: #{$htmlDarkBackgroundColor};
+  --text-color: #{$bodyDarkColor};
+  --accent-color: #{$sectionDarkBackgroundColor};
 }
 
 html {
   background-attachment: fixed;
   background-size: cover;
-  background-color: $htmlBackgroundColor;
+  background-color: var(--bg-color);
   text-align: left;
-  color: $bodyColor;
+  color: var(--text-color);
   font-family: $bodyFont;
 }
 
 footer {
   position: fixed;
-  color: black;
-  background-color: $sectionBackgroundColor;
+  color: var(--text-color);
+  background-color: var(--accent-color);
   font-family: monospace;
   bottom: 0px;
   left: 0px;
@@ -33,13 +44,13 @@ footer {
 
 footnote {
   padding-left: 25px;
-  color: rgb(50, 50, 50);
-  background-color: rgba(10, 10, 10, 0.2);
+  color: rgb(136, 136, 136);
+  box-shadow: 0.1px 0.1px 0.1px inset rgba(20, 20, 20, 0.2);
 }
 
 section {
-  color: black;
-  background-color: $sectionBackgroundColor;
+  color: var(--text-color);
+  background-color: var(--accent-color);
   padding: 4px;
   display: inline-block;
 }
@@ -64,4 +75,15 @@ code {
   border-radius: 4px;
   display: inline-block;
   cursor: pointer;
+}
+
+/* touchscreens / mobile devices */
+@media (pointer: coarse) {
+  body { margin-left: 0; }
+  body { margin-right: 0; }
+}
+
+@media (pointer: fine) {
+  body { margin-left: 120px; }
+  body { margin-right: 120px; }
 }

@@ -2,7 +2,7 @@
 title: "A Slight Inconvenience with Packages"
 layout: post
 category: "programming"
-tags: ["tooling"]
+tags: [""]
 date: 2026-5-24
 ---
 
