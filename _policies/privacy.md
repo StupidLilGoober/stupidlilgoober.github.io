@@ -60,7 +60,9 @@ These sites include:
 
 ## Analytics
 
-This site does not use analytics.
+As stated before, some regional and user data is collected.
+These are likely to be collected by the same sources
+stated before.
 
 ## Data Retention
 
