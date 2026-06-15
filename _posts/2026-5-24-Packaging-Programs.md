@@ -1,8 +1,7 @@
 ---
 title: "A Slight Inconvenience with Packages"
 layout: post
-category: "programming"
-tags: [""]
+category: "dev"
 date: 2026-5-24
 ---
 
