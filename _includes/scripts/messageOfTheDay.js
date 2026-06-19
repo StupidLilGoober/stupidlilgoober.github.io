@@ -37,4 +37,4 @@ const element = document.getElementById("random-message");
 
 let message = messages[Math.floor(Math.random() * messages.length)];
 
-element.textContent = "Message of the day: " + message;
+element.textContent = message;

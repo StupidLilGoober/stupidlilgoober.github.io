@@ -20,7 +20,7 @@
       <section>
         <h2>More Posts</h2>
         <ul>
-          {% for post in site.posts %}
+          {% for post in site.posts limit: 10 %}
           <li>
             <a href="{{ post.url }}">{{ post.title }}</a> <br>
             <small>{{ post.date | date: "%B %-d, %Y" }}</small> <br>
