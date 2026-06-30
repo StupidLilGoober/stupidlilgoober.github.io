@@ -30,7 +30,6 @@ const messages = [
   "algebra class is rough rn",
   "segmentation fault (core dumped)",
   "it was working fine yesterday, i changed nothing",
-  
 ]
 
 const element = document.getElementById("random-message");
