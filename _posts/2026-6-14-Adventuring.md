@@ -2,7 +2,7 @@
 title: "Adventuring in Programming"
 layout: post
 category: "dev"
-tags: ["engine"]
+tags: ["game", "plan"]
 date: 2026-6-14
 ---
 
