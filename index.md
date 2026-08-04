@@ -17,17 +17,15 @@ By 5th grade, I planned to create my first Sonic fan game. Of
 course, I needed to learn how to program, and because of that
 we are here.
 
-Since then, I have grown fond of arena shooters, which are
-unfortunately past this time, but have given me loads of
-entertainment. Furthermore, I have recently become fond of
-Doki-Doki Literature Club (DDLC).
+## Favorite Anime
 
-## Hobbies
+* Re:Zero
+* Lucky Star
 
-* Programming
-* D&D
-* Video games (namely DDLC and TF2)
-* Music
+## Favorite Games
+
+* TF2 (Team Fortress 2)
+* DDLC (Doki-Doki Literature Club)
 
 ## Where I'm Most Active
 
