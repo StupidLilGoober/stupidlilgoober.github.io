@@ -3,6 +3,8 @@ layout: home
 title: "Dominic Kolp"
 ---
 
+> This website does not support mobile cleanly.
+
 ## About Me
 
 I am a programmer who enjoys making things in C++ and rarely
