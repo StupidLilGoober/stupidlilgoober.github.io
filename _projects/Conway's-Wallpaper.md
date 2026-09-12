@@ -1,8 +1,9 @@
 ---
 title: "Conway's Wallpaper"
 layout: project
-github: stupidlilgoober/conways-wallpaper
+github: stupidlilgoober/conways--wallpaper
 finished: yes
+thumbnail: "https://raw.githubusercontent.com/StupidLilGoober/conways-wallpaper/main/preview.gif"
 ---
 
 Conway's Wallpaper is a very simple program. Technically, the executable itself just

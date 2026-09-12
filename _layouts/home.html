@@ -21,12 +21,11 @@
       <div id="random-message"></div>
     </div>
     <hr>
-    <div id="home-sections">
-      <div id="about-me">
+    <div id="home-lists">
+      <section class="top-section" id="about-me">
         {{ content }}
-      </div>
-      <hr>
-      <div id="posts-list" style="width: 200px; height: 700px; right: 5px">
+      </section>
+      <section id="posts-list">
         <h2>Posts</h2>
         <ul>
           {% for post in site.posts %}
@@ -37,7 +36,18 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
+      </section>
+      <section id="projects-list">
+        <h2>Projects</h2>
+        <ul>
+          {% for project in site.projects %}
+          <li>
+            <a href="{{ project.url }}">{{ project.title }}</a> <br>
+            <img src="https://img.shields.io/badge/GitHub-{{ project.github }}-gray">
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
     </div>
   <script>
     {% include scripts/copyCode.js %}

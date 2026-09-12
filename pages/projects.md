@@ -8,8 +8,17 @@ permalink: "/projects/"
 # Projects
 
 {% for project in site.projects %}
-  <h2>{{ project.title }}</h2>
-  <a href="{{ project.url }}">View Project Page</a>
-  <p><a href="https://github.com/{{ project.github }}"><img src="https://img.shields.io/badge/GitHub-{{ project.github }}-gray?logo=github&logoColor=white"></a></p>
+  <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+
+  <p>
+    <a href="https://github.com/{{ project.github }}">
+      <img src="https://img.shields.io/badge/GitHub-{{ project.github }}-gray?logo=github&logoColor=white">
+    </a>
+  </p>
+
+  {% if project.thumbnail %}
+  <img src="{{ project.thumbnail }}" width="512" height="288" alt="{{ project.title }} thumbnail">
+  {% endif %}
+
   <p>{{ project.desc }}</p>
 {% endfor %}

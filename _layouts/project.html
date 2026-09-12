@@ -13,7 +13,9 @@
     <hr>
     <center>
     <h1>{{ page.title }}</h1>
-    <a href="https://github.com/{{ page.github }}"><img src="https://img.shields.io/badge/GitHub-{{ page.github }}-gray?logo=github&logoColor=white"></a>
+    <a href="https://github.com/{{ page.github }}"><img src="https://img.shields.io/badge/GitHub-{{ page.github }}-gray?logo=github&logoColor=white"></a> 
+    <br>
+    <img src="{{ page.thumbnail }}" width="240" height="135">
     </center>
     {{ content }}
     {% include footer.html %}
