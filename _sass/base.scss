@@ -1,36 +1,18 @@
-$htmlBackgroundColor: rgb(240, 240, 240);
-$htmlDarkBackgroundColor: rgb(10, 10, 10);
-$sectionBackgroundColor: rgba(220, 220, 220, 0.8);
-$sectionDarkBackgroundColor: rgba(20, 20, 20, 0.8);
-$bodyColor: rgb(0, 0, 0);
-$bodyDarkColor: rgb(245, 245, 245);
+$backgroundColor: rgb(10, 10, 10);
+$sectionBackgroundColor: rgba(20, 20, 20, 0.8);
+$bodyColor: rgb(245, 245, 245);
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$blockquoteDarkColor: rgb(140, 140, 140);
-$blockquoteLightColor: rgb(50, 50, 50);
+$blockquoteColor: rgb(140, 140, 140);
 
 @import "elements.scss";
 @import "content.scss";
 
-:root {
-  --bg-color: #{$htmlBackgroundColor};
-  --text-color: #{$bodyColor};
-  --accent-color: #{$sectionBackgroundColor};
-  --blockquote-color: #{$blockquoteLightColor};
-}
-
-[data-theme="dark"] {
-  --bg-color: #{$htmlDarkBackgroundColor};
-  --text-color: #{$bodyDarkColor};
-  --accent-color: #{$sectionDarkBackgroundColor};
-  --blockquote-color: #{$blockquoteDarkColor};
-}
-
 html {
   background-attachment: fixed;
   background-size: cover;
-  background-color: var(--bg-color);
+  background-color: $backgroundColor;
   text-align: left;
-  color: var(--text-color);
+  color: $bodyColor;
   font-family: $bodyFont;
 }
 
@@ -40,8 +22,8 @@ body {
 
 footer {
   position: fixed;
-  color: var(--text-color);
-  background-color: var(--accent-color);
+  color: $bodyColor;
+  background-color: $sectionBackgroundColor;
   font-family: monospace;
   bottom: 0px;
   left: 0px;
@@ -54,13 +36,13 @@ footer {
 blockquote {
   padding-left: 20px;
   margin-left: 0;
-  color: var(--blockquote-color);
+  color: $blockquoteColor;
   border-left: 4px solid rgb(0, 255, 0);
 }
 
 section {
-  color: var(--text-color);
-  background-color: var(--accent-color);
+  color: $bodyColor;
+  background-color: $sectionBackgroundColor;
   padding: 4px;
   display: inline-block;
   border-radius: 20px;

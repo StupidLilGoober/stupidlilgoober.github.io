@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Creating a Fluid Simulation"
 tags: ["C","C++"]
 category: "Programming"
