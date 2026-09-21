@@ -8,8 +8,6 @@ const messages = [
   "R.I.P. MF DOOM",
   "R.I.P. Donda West",
   "iPhones suck, I'm sorry it's just true",
-  "Is this the real life? Is this just fantasy?",
-  `"What if you put fudge in ramen?" - my fascinating step-brother`,
   `"I can rhyme orange with banana... ornana!" - Marshall Mathers`,
   "404 - message not found ):",
   "No one actually reads these, do they?",
@@ -21,10 +19,10 @@ const messages = [
   "",
   "this is some CRAZY thundering outside rn",
   "I know what kind of man you are.",
-  `email me "hippity hoppity" and ill respond with absolutely nothing!`,
   "once i licked an outlet",
   "segmentation fault (core dumped)",
   "it was working fine yesterday, i changed nothing",
+  `"Software is like sex: it's better when it's free." - Linus Torvalds`
 ]
 
 const element = document.getElementById("random-message");

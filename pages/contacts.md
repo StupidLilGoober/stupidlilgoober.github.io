@@ -1,15 +1,15 @@
 ---
-title: "Policies"
+title: "Contacts"
 layout: default
-date: 2026-9-14
+date: 2026-9-21
 permalink: "/contacts/"
 ---
 
 # Contacts
 
-I am known as {{ site.username }} on most sites.
+I am known as `{{ site.username }}` on most sites.
 
-* [Email](mailto:{{ site.email }})
-* [GitHub](https://github.com/{{ site.github }})
-* [YouTube](https://youtube.com/@{{ site.youtube }})
-* [Discord](https://discord.com/users/1246426621641101363)
+<a href="mailto:{{ site.email }}"><img class="make-white" src="/assets/images/logos/email.png" height="100"></a>
+<a href="https://github.com/{{ site.github }}"><img class="make-white" src="/assets/images/logos/github.png" height="100"></a>
+<a href="https://youtube.com/@{{ site.youtube }}"><img class="make-white" src="/assets/images/logos/youtube.png" height="100"></a>
+<a href="https://discord.com/users/{{ site.discord }}"><img class="make-white" src="/assets/images/logos/discord.png" height="100">

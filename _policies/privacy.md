@@ -53,11 +53,6 @@ analytics, fonts, or embedded content.
 These services may collect data according to their own privacy
 policies.
 
-These sites include:
-
-* GitHub
-* Cloudflare
-
 ## Analytics
 
 As stated before, some regional and user data is collected.

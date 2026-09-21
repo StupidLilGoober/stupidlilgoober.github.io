@@ -1,7 +1,9 @@
 #buttons {
-  position: absolute;
+  position: fixed;
   right: 4px;
   top: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px;
 }
 
 #random-message {
@@ -25,4 +27,8 @@
 
 #home-lists .top-section {
   grid-column: 1 / -1;
+}
+
+.make-white {
+  filter: invert(100%);
 }
