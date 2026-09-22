@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 $backgroundColor: rgb(10, 10, 10);
 $sectionBackgroundColor: rgba(20, 20, 20, 0.8);
 $bodyColor: rgb(245, 245, 245);
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: nunito;
 $blockquoteColor: rgb(140, 140, 140);
 
 @import "elements.scss";
@@ -14,6 +15,7 @@ html {
   text-align: left;
   color: $bodyColor;
   font-family: $bodyFont;
+  font-size: 16px;
 }
 
 body {
@@ -68,6 +70,7 @@ code {
   border-radius: 4px;
   display: inline-block;
   cursor: pointer;
+  font-size: 12px;
 }
 
 /* touchscreens / mobile devices */

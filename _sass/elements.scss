@@ -32,3 +32,26 @@
 .make-white {
   filter: invert(100%);
 }
+
+.static-bg {
+  position: fixed;
+  top: -50%;
+  right: -50%;
+  left: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200%;
+  background-image: url("/assets/images/noise.png");
+  pointer-events: none;
+  animation: shift-static 15s linear infinite;
+  z-index: -1;
+}
+
+@keyframes shift-static {
+  0% {
+    background-position: 0%
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
