@@ -4,7 +4,6 @@ const messages = [
   "Christ loves you!",
   "R.I.P. Akira Toriyama",
   "my internet is the bane of my existence",
-  "I *love* playing spy (in tf2)!!!",
   "R.I.P. MF DOOM",
   "R.I.P. Donda West",
   "iPhones suck, I'm sorry it's just true",
@@ -12,17 +11,16 @@ const messages = [
   "404 - message not found ):",
   "No one actually reads these, do they?",
   "I ran outta messages",
-  "straight outta ideas",
   "where (and why) are you people finding these diabolical discord gifs",
   "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "billie jean is not my lover / she's just a girl, who claims i am the one",
   "",
-  "this is some CRAZY thundering outside rn",
   "I know what kind of man you are.",
-  "once i licked an outlet",
   "segmentation fault (core dumped)",
   "it was working fine yesterday, i changed nothing",
-  `"Software is like sex: it's better when it's free." - Linus Torvalds`
+  `"Software is like sex: it's better when it's free." - Linus Torvalds`,
+  `R.I.P. Scott, we miss ya! Wish I coulda said goodbye one more time, but I guess there's no point in getting sad about it.
+  Besides, you're in a better place now.`
 ]
 
 const element = document.getElementById("random-message");
