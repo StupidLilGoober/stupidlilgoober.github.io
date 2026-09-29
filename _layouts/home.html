@@ -40,7 +40,7 @@
           {% for project in site.projects %}
           <li>
             <a href="{{ project.url }}">{{ project.title }}</a> <br>
-            <img src="https://img.shields.io/badge/GitHub-{{ project.github }}-gray">
+            <a href="https://github.com/{{ project.github }}"><img src="https://img.shields.io/badge/GitHub-{{ project.badge }}-gray"></a>
           </li>
           {% endfor %}
         </ul>

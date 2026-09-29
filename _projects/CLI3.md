@@ -2,6 +2,7 @@
 title: cli3
 layout: project
 github: stupidlilgoober/cli3
+badge: stupidlilgoober/cli3
 finished: yes
 ---
 

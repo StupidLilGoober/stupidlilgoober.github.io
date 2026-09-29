@@ -1,7 +1,8 @@
 ---
 title: "Conway's Wallpaper"
 layout: project
-github: stupidlilgoober/conways--wallpaper
+github: stupidlilgoober/conways-wallpaper
+badge: stupidlilgoober/conways--wallpaper
 finished: yes
 thumbnail: "https://raw.githubusercontent.com/StupidLilGoober/conways-wallpaper/main/preview.gif"
 ---
